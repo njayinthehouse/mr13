@@ -1,0 +1,1 @@
+This is a simple command line tool to track the manga released on 'http://www.mangareader.net' and download chapters from it in pdf format. Support for other sites may be added later.
