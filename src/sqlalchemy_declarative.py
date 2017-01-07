@@ -49,7 +49,7 @@ connection.execute(genres.insert(), [
     {'id': 3, 'value': 'Comedy'},
     {'id': 4, 'value': 'Demons'},
     {'id': 5, 'value': 'Drama'},
-    {'id': 6, 'value': 'Dcchi'},
+    {'id': 6, 'value': 'Ecchi'},
     {'id': 7, 'value': 'Fantasy'},
     {'id': 8, 'value': 'Gender Bender'},
     {'id': 9, 'value': 'Harem'},

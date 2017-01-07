@@ -1,4 +1,6 @@
 # BeautifulSoup -> MangaInfoDict
+BASE_URL = 'http://www.mangareader.net'
+
 def get_info(soup):
     property_titles = soup.select('.propertytitle')
     property_tags = [i.next_sibling.next_sibling for i in property_titles]
@@ -25,3 +27,7 @@ def get_chapter_list(soup):
 # BeautifulSoup -> UrlString
 def get_page(soup):
     return soup.find('img', id = 'img')['src']
+
+# BeautifulSoup -> Integer
+def get_chapter_length(soup):
+    pass
